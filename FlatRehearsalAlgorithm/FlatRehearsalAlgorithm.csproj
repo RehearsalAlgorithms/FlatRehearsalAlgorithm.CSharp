@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Version>0.1.0-alpha</Version>
+		<Description>FlatRehearsalAlgorithm for C# provides an algorithm for rote learning - memorization of information based on repetition. It is designed for both a small and a great number of pieces of information (let's say 20 items for kids and over a 1000 items for adults).</Description>
+		<PackageProjectUrl>https://github.com/RehearsalAlgorithms/FlatRehearsalAlgorithm.CSharp#readme</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/RehearsalAlgorithms/FlatRehearsalAlgorithm.CSharp</RepositoryUrl>
+		<PackageTags>rehearsal; rote; learning; memorization</PackageTags>
+		<Copyright>RehearsalAlgorithms</Copyright>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<TargetFramework>net6.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageIcon>Circle.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\Circle.png" Pack="true" PackagePath="\"/>
+		<None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+</Project>
