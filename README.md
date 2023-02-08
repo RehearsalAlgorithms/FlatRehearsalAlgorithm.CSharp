@@ -2,9 +2,7 @@
 
 FlatRehearsalAlgorithm for C# provides an algorithm for rote learning - memorization of information based on repetition. It is designed for both a small and a great number of pieces of information (let's say 20 items for kids and over a 1000 items for adults). This rehearsal algorithm is called "flat" because no learn item should depend on a specific other learn item before it can be studied - the algorithm treats all learn items as independent. Note however that this algorithm can be used for mastering "layered topics" as well: one set of items (let's say "addition until 10") could be studied first and when the score for that topic is high enough, another topic (let's say "addition until 30") can be studied next by then feeding those other items to the algorithm. Also note that the learn items don't need to be static like lists of words: you can also design learn items that allow generating slightly different content on-the-fly.
 
-```
-This library is in pre-release and still needs to be tested and fine tuned.
-```
+> This library is in pre-release and still needs to be tested and fine tuned.
 
 ### An execution timeline
 
